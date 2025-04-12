@@ -1,0 +1,21 @@
+{
+  "name": "my_app",
+  "description": "from stractch",
+  "version": "2.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress-vite build src",
+    "docs:clean-dev": "vuepress-vite dev src --clean-cache",
+    "docs:dev": "vuepress-vite dev src",
+    "docs:update-package": "npx vp-update"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "sass-embedded": "^1.86.3",
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.20",
+    "vuepress-theme-hope": "2.0.0-rc.79"
+  },
+  "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
+}
