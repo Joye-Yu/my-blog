@@ -4,7 +4,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/my-blog/",  
+  base: "/Joye-Yu.github.io/",  
 
   head: [ 
     ["link", { rel: "icon", href: "/favicon.png" }],    // xx.ico 后缀有bug，原因未知
